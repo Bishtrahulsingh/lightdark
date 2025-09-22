@@ -1,10 +1,8 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./pages/App";
-import Login from "./pages/Login";
 import Error from "./components/Error";
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
-import Home from "./Pages/Home";
+import Home from "./pages/Home";
 import Post from "./pages/Post";
 import ThemeProvider from "./contexts/ThemeProvider";
 
