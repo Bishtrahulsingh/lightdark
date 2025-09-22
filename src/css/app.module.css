@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: var(--appcolor);
+    padding: 30px;
+    min-height: calc(100vh - 70px);
+}
+
+.light{
+    --headercolor:white;
+    --appcolor:rgb(241, 241, 241);
+    --cardcolor:white;
+    --cardbordercolor:black;
+    --textcolor:black;
+}
+
+.dark{
+    --headercolor:black;
+    --appcolor:rgb(65, 65, 65);
+    --cardcolor:rgb(0, 0, 0);
+    --cardbordercolor:rgb(255, 255, 255); 
+    --textcolor: white;
+}
